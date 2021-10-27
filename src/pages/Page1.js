@@ -8,9 +8,10 @@ import {findByDisplayValue} from "@testing-library/react";
 export default function Page1() {
   const cityData = [
     {
-      city: "杭州",
+      city: "莱州",
       src: hzImage,
-      isActive: true
+      isActive: true,
+      age: 11,
     },
     {
       city: "上海",
